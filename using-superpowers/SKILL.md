@@ -13,9 +13,10 @@ This is not negotiable. This is not optional. You cannot rationalize your way ou
 
 ## How to Access Skills
 
-**In Claude Code:** Use the `Skill` tool. When you invoke a skill, its content is loaded and presented to you—follow it directly. Never use the Read tool on skill files.
+**In Antigravity:** Skills are automatically loaded from `~/.gemini/antigravity/.agent/skills/`. When a skill applies to your task, follow its instructions directly.
 
 **In other environments:** Check your platform's documentation for how skills are loaded.
+
 
 # Using Skills
 

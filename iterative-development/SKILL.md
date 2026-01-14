@@ -41,7 +41,7 @@ description: Ralph Wiggum loops - self-referential TDD iteration until tests pas
 ```bash
 # Clone the plugin
 git clone https://github.com/anthropics/claude-code.git /tmp/claude-code
-cp -r /tmp/claude-code/plugins/ralph-wiggum ~/.claude/plugins/
+cp -r /tmp/claude-code/plugins/ralph-wiggum ~/.gemini/antigravity/.agent/plugins/
 
 # Or add to project-local plugins
 mkdir -p .claude/plugins
