@@ -1,142 +1,153 @@
-# 🎨 Youngbeen Skills
+# 🚀 Antigravity Skills Collection
 
-> Antigravity AI 에이전트를 위한 커스텀 스킬 모음집
+Antigravity IDE에서 사용하는 스킬(기능 확장 모듈) 모음입니다.  
+여러 기기(맥북, 맥미니, 윈도우 PC)에서 동일한 환경을 유지하기 위한 동기화 저장소입니다.
 
-## 📌 스킬이란?
+---
 
-**스킬(Skill)**은 AI에게 주는 **"작업 매뉴얼"**입니다.
+## 📌 스킬(Skill)이란?
 
-```
-사용자: "버그 고쳐줘"
-→ AI가 systematic-debugging 스킬을 읽고
-→ 체계적인 4단계 디버깅 프로세스 적용
-→ 더 정확하고 효율적인 결과!
-```
+**스킬**은 AI 어시스턴트가 특정 작업을 더 잘 수행할 수 있도록 도와주는 **전문 지식 패키지**입니다.
 
-## 🚀 빠른 설치
+예를 들어:
+- `python` 스킬 → Python 코딩을 더 잘 도와줌
+- `flutter` 스킬 → Flutter 앱 개발을 도와줌
+- `playwright-testing` 스킬 → 웹 테스트 자동화를 도와줌
 
-다른 PC에서 복원할 때:
+---
+
+## 📂 포함된 스킬 목록 (69개)
+
+### 🌐 웹 개발
+| 스킬명 | 설명 |
+|--------|------|
+| `react-web` | React 웹 프론트엔드 개발 |
+| `nodejs-backend` | Node.js 백엔드 개발 |
+| `typescript` | TypeScript 언어 지원 |
+| `frontend_design` | 프론트엔드 디자인 가이드 |
+| `pwa-development` | Progressive Web App 개발 |
+| `site-architecture` | 웹사이트 구조 설계 |
+
+### 📱 모바일 개발
+| 스킬명 | 설명 |
+|--------|------|
+| `flutter` | Flutter 크로스플랫폼 앱 개발 |
+| `react-native` | React Native 앱 개발 |
+| `android-kotlin` | Android Kotlin 개발 |
+| `android-java` | Android Java 개발 |
+| `ios-simulator-skill` | iOS 시뮬레이터 사용 |
+| `ui-mobile` | 모바일 UI 디자인 |
+
+### 🐍 Python & 데이터
+| 스킬명 | 설명 |
+|--------|------|
+| `python` | Python 프로그래밍 |
+| `d3_visualization` | D3.js 데이터 시각화 |
+| `ai-models` | AI 모델 활용 |
+
+### 🗄️ 백엔드 & 데이터베이스
+| 스킬명 | 설명 |
+|--------|------|
+| `supabase` | Supabase 백엔드 서비스 |
+| `supabase-nextjs` | Supabase + Next.js 연동 |
+| `supabase-node` | Supabase + Node.js 연동 |
+| `supabase-python` | Supabase + Python 연동 |
+| `database-schema` | 데이터베이스 스키마 설계 |
+
+### 🧪 테스트 & 품질
+| 스킬명 | 설명 |
+|--------|------|
+| `playwright-testing` | Playwright 웹 테스트 |
+| `playwright_skill` | Playwright 고급 기능 |
+| `ui-testing` | UI 테스트 자동화 |
+| `test-driven-development` | TDD 개발 방법론 |
+| `systematic-debugging` | 체계적 디버깅 기법 |
+
+### 📋 코드 관리 & Git
+| 스킬명 | 설명 |
+|--------|------|
+| `git_pushing` | Git 푸시 가이드 |
+| `commit-hygiene` | 깔끔한 커밋 작성법 |
+| `code-review` | 코드 리뷰 가이드 |
+| `receiving-code-review` | 코드 리뷰 받기 |
+| `requesting-code-review` | 코드 리뷰 요청하기 |
+| `using-git-worktrees` | Git Worktree 활용 |
+
+### 🛡️ 보안 & 인증
+| 스킬명 | 설명 |
+|--------|------|
+| `security` | 보안 모범 사례 |
+| `credentials` | 인증 정보 관리 |
+
+### 📝 문서화 & 브랜딩
+| 스킬명 | 설명 |
+|--------|------|
+| `document_suite` | 문서 작성 도구 |
+| `changelog_generator` | 변경 로그 생성 |
+| `brand_guidelines` | 브랜드 가이드라인 |
+
+### 🎨 디자인 & 아트
+| 스킬명 | 설명 |
+|--------|------|
+| `canvas-design` | 캔버스 디자인 |
+| `algorithmic-art` | 알고리즘 아트 생성 |
+| `ui-web` | 웹 UI 디자인 |
+
+### 🔧 개발 프로세스
+| 스킬명 | 설명 |
+|--------|------|
+| `agentic-development` | 에이전트 기반 개발 |
+| `iterative-development` | 반복적 개발 방법론 |
+| `executing-plans` | 계획 실행 가이드 |
+| `writing-plans` | 계획 작성 가이드 |
+| `project-tooling` | 프로젝트 도구 설정 |
+| `verification-before-completion` | 완료 전 검증 |
+| `finishing-a-development-branch` | 개발 브랜치 마무리 |
+
+### 🔍 기타 유틸리티
+| 스킬명 | 설명 |
+|--------|------|
+| `brainstorming` | 브레인스토밍 지원 |
+| `research_assistant` | 리서치 도우미 |
+| `skill_creator` | 새 스킬 생성 도구 |
+| `skill-seekers` | 스킬 검색 |
+| `artifacts_builder` | 아티팩트 빌더 |
+| `deployment_helper` | 배포 도우미 |
+| `code_tutor` | 코딩 튜터 |
+| `canva-mcp` | Canva MCP 연동 |
+| `notebooklm-skill` | NotebookLM 연동 |
+| `ffuf-web-fuzzing` | 웹 퍼징 도구 |
+
+---
+
+## 🔧 설치 방법
+
+### 다른 PC에서 스킬 동기화하기
+
 ```bash
-git clone https://github.com/dudqks0319-cpu/youngbeen-skills.git ~/.gemini/antigravity/.agent/skills
+# 1. 기존 스킬 폴더로 이동 (없으면 생성)
+cd ~/.gemini/antigravity/.agent/skills
+
+# 2. 저장소 클론 (기존 폴더가 비어있다면)
+git clone https://github.com/dudqks0319-cpu/antigravity-skills.git .
+
+# 또는 기존 폴더가 있다면 pull
+git pull origin main
 ```
 
 ---
 
-## 📦 스킬 목록 (64개)
+## 🔄 동기화 방법
 
-### 🎼 Core - 핵심 스킬
-
-| 스킬 | 설명 | 사용 시점 |
-|------|------|----------|
-| `youngbeen_mode` | 메인 AI 비서 페르소나 | 항상 적용 |
-| `base` | 기본 TDD 워크플로우 | 코드 작성 시 |
-| `security` | 보안 패턴 | 민감 작업 시 |
-| `credentials` | API 키 관리 | 인증 설정 시 |
-| `code_tutor` | 비개발자용 설명 | 질문할 때 |
-
-### 🧪 Testing & Debugging
-
-| 스킬 | 설명 | 사용 시점 |
-|------|------|----------|
-| `systematic-debugging` | 체계적 4단계 디버깅 | 버그 수정 시 ⭐ |
-| `test-driven-development` | 테스트 우선 개발 | 새 기능 개발 |
-| `verification-before-completion` | 완료 전 검증 | 작업 마무리 |
-| `playwright-testing` | E2E 웹 테스트 | 웹앱 테스트 |
-| `ui-testing` | UI 테스트 | 화면 검증 |
-
-### 📱 Mobile Development
-
-| 스킬 | 설명 | 사용 시점 |
-|------|------|----------|
-| `ios-simulator-skill` | iOS 시뮬레이터 제어 | iOS 앱 테스트 |
-| `react-native` | React Native 개발 | 모바일 앱 |
-| `flutter` | Flutter 개발 | 크로스플랫폼 |
-| `android-java` | Android Java | 안드로이드 |
-| `android-kotlin` | Android Kotlin | 안드로이드 |
-| `ui-mobile` | 모바일 UI 가이드 | 모바일 디자인 |
-
-### 🎨 UI/UX Design
-
-| 스킬 | 설명 | 사용 시점 |
-|------|------|----------|
-| `frontend_design` | 프론트엔드 디자인 | UI 제작 |
-| `ui-web` | 웹 UI (다크모드, 접근성) | 웹 디자인 |
-| `brand_guidelines` | 브랜드 일관성 | 디자인 통일 |
-| `user-journeys` | UX 흐름 설계 | 사용자 경험 |
-| `pwa-development` | PWA 개발 | 오프라인 앱 |
-
-### 💻 Languages & Frameworks
-
-| 스킬 | 설명 | 사용 시점 |
-|------|------|----------|
-| `typescript` | TypeScript 개발 | TS 프로젝트 |
-| `python` | Python 개발 | Python 코드 |
-| `nodejs-backend` | Node.js 백엔드 | 서버 개발 |
-| `react-web` | React 웹 개발 | React 앱 |
-| `supabase` | Supabase 연동 | DB/인증 |
-
-### 🤖 AI & Agents
-
-| 스킬 | 설명 | 사용 시점 |
-|------|------|----------|
-| `agentic-development` | AI 에이전트 개발 | 에이전트 제작 |
-| `llm-patterns` | LLM 앱 패턴 | AI 앱 개발 |
-| `ai-models` | AI 모델 레퍼런스 | 모델 선택 |
-| `notebooklm-skill` | NotebookLM 연동 | 문서 기반 질문 |
-
-### 🔧 Utilities
-
-| 스킬 | 설명 | 사용 시점 |
-|------|------|----------|
-| `git_pushing` | Git 커밋/푸시 | 코드 업로드 |
-| `changelog_generator` | 변경 로그 생성 | 버전 관리 |
-| `code-review` | 코드 리뷰 | 품질 점검 |
-| `deployment_helper` | 배포 도우미 | 사이트 배포 |
-| `document_suite` | 문서 생성 (Word/Excel) | 보고서 작성 |
-| `research_assistant` | 정보 조사 | 리서치 |
-| `d3_visualization` | 데이터 시각화 | 차트 제작 |
-
----
-
-## 💡 사용 방법
-
-### 자동 활성화
-자연어로 요청하면 관련 스킬이 자동으로 적용됩니다:
-
-```
-"버그 찾아줘" → systematic-debugging 적용
-"iOS 앱 테스트해줘" → ios-simulator-skill 적용
-"차트 만들어줘" → d3_visualization 적용
+### 변경사항 업로드 (이 PC → GitHub)
+```bash
+cd ~/.gemini/antigravity/.agent/skills
+git add -A
+git commit -m "스킬 업데이트"
+git push
 ```
 
-### 스킬 직접 호출
-특정 스킬을 명시적으로 사용하고 싶을 때:
-```
-"systematic-debugging 스킬로 이 에러 분석해줘"
-```
-
----
-
-## 📁 폴더 구조
-
-```
-~/.gemini/antigravity/.agent/skills/
-├── youngbeen_mode/     # 메인 페르소나
-│   └── SKILL.md
-├── systematic-debugging/
-│   ├── SKILL.md
-│   └── *.md (부가 자료)
-├── ios-simulator-skill/
-│   ├── SKILL.md
-│   └── scripts/       # Python 스크립트
-└── ... (64개 스킬)
-```
-
----
-
-## 🔄 업데이트
-
-최신 스킬로 업데이트:
+### 변경사항 다운로드 (GitHub → 이 PC)
 ```bash
 cd ~/.gemini/antigravity/.agent/skills
 git pull
@@ -144,20 +155,6 @@ git pull
 
 ---
 
-## 📖 출처
-
-- [Superpowers](https://github.com/obra/superpowers) (14개)
-- [Claude Bootstrap](https://github.com/alinaqi/claude-bootstrap) (35개)
-- [iOS Simulator Skill](https://github.com/conorluddy/ios-simulator-skill)
-- [NotebookLM Skill](https://github.com/PleasePrompto/notebooklm-skill)
-- Custom (Youngbeen Mode 등)
-
----
-
-## 📝 라이선스
-
-MIT License - 자유롭게 사용하세요!
-
----
-
-Made with ❤️ by Youngbeen
+## 📅 최종 업데이트
+- 날짜: 2026-01-17
+- 스킬 개수: 69개
